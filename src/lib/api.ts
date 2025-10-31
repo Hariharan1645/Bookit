@@ -1,8 +1,7 @@
-import axios from 'axios'
+import axios from "axios";
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || 'https://bookit-anxm.onrender.com/api',
-  timeout: 10000,
-})
+  baseURL: "https://bookit-anxm.onrender.com/api",
+});
 
-export default api
+export default api;
